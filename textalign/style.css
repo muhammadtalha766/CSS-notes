@@ -1,0 +1,28 @@
+
+p{
+    text-align: left;
+    /* multiple font family can be apply ( if browser does't spot)  */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal; /* by default ye hi hota ha */
+    text-transform: capitalize; /* hr word ka first letter captal kr ny k liya */
+}
+
+h1{
+/* text-align  */
+    text-align: center; 
+    color: red;
+/* text-decoration  */
+    text-decoration: blue wavy underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-weight: bold;
+}
+/* font weight siza (100 to 900)  */
+h3{
+    font-weight: 900;
+}

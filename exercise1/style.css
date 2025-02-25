@@ -1,0 +1,16 @@
+p{
+    color: white;
+    margin-top: 10;
+    padding: 5px ;
+}
+
+#box {
+    background-color: blue;
+}
+.heading {
+    color: red;
+}
+button{
+    background-color: green;
+    color : white
+}

@@ -1,6 +1,30 @@
-h1 {
-    color: rgb(241, 3, 3);
+/*    *{}  This is universal selector.   */
+
+/* element selector */
+body{
+     /* background color is pick by hash code  */
+    background-color: #b5419a ;
 }
- button {
-    background-color: red;
- }
+
+h1 {
+     /* color is pick by rgb value  */
+    color: rgb(3, 3, 2);
+}
+/* id selector */
+#headingtwo {
+    color: #ffffff;
+}
+
+button {
+    background-color: rgb(221, 185, 185);
+    color: white;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+/* class sector  */
+.classone {
+    color: white;
+}
