@@ -1,0 +1,41 @@
+div{
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+
+#divone{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+#divtwo{
+    background-color: rgb(102, 255, 0);
+    height: 100px;
+    width: 150px;
+    border : 5px solid black;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#divthree{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding top, right, bottom, left (clock wise format)  Too giving one line padding*/
+    /* padding : 10px 10px 10px 10px; */
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
