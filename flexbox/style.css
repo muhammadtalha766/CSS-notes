@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    display: flex;  /* main axis (row), cross axis ( colomn )*/
+    flex-direction: row; /* flex direction */
+    justify-content: space-around;
+    width: 800px;
+    height: 200px;
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: grey;
+}
+#box5{
+    background-color: purple;
+}

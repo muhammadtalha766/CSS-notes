@@ -1,0 +1,32 @@
+.navbar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none ;
+    /* display: inline; */
+}
+
+
+.outer {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;  /* For vertically center contant */
+    align-items: center; /* For horizontally center contant */
+}
+
+.inner {
+    background-color: rgb(210, 255, 192);
+    height: 100px;
+    width: 100px;
+    align-self: start; /* align self has high priorty than align item */
+}
