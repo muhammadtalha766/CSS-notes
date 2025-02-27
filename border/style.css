@@ -1,0 +1,17 @@
+h1{
+    display: inline; /* for convert div into span type */
+    border-width: 5px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-right-style:groove;
+    border-left-style: double ;
+    border-left-color: red;
+    border-left-width: 10px;
+}
+
+p{
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 5px;
+}
