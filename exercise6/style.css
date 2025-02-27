@@ -20,8 +20,8 @@ li{
     height: 200px;
     width: 200px;
     display: flex;
-    justify-content: center;  /* For vertically center contant */
-    align-items: center; /* For horizontally center contant */
+    justify-content: center;  /* For vertically center contant (center to main axis) */
+    align-items: center; /* For horizontally center contant(center to cross axis) */
 }
 
 .inner {
