@@ -2,5 +2,29 @@ div{
     height: 100px;
     width: 100px;
     background-color: lightblue;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
+    /* position:absolute;         => distance from browser */
+    top: 105px;
+    left: 140px;
+    transition: all 3s ease-in;
+    
+    /* transform: scale(2);     size increase krna  */
+    /* transform: scale(2, 1);  ( x-axis, y-axis) */
+
+}
+
+div:hover{
+    /* translation  */
+    transform: translateX(70px);
+    /* transform: translateX(-70px); */
+}
+
+.classdiv{
+    height: 150px;
+    width: 50px;
+    background-color: red;
+    transform: skew(30deg); /* isi hover ma b use kr skty hn siyada achy dekhny k liya*/
+    position:relative; /* previous item sy dictance */
+    left : 50px;
+    top: 50px;
 }
