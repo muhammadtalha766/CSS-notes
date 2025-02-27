@@ -1,0 +1,27 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink; 
+}
+
+@media(width: 600px){  /*on exact 600px */
+    div{
+        background-color: red;
+    }
+}
+@media(min-width: 700px){  /*700px sy uper */
+    div{
+        background-color: rgb(25, 0, 255);
+    }
+}
+@media(max-width: 300px){  /*300px sy nichy */
+    div{
+        background-color: rgb(17, 255, 0);
+    }
+}
+
+@media (min-width : 400px) and (max-width: 500px){
+    div{
+        background-color: rgb(140, 28, 129);
+    }
+}
