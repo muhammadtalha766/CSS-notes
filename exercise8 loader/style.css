@@ -12,6 +12,8 @@
     /* animation-delay: 3s; */
     animation-iteration-count: infinite;
     animation-direction: normal;
+    /* animation: spinanimation 1.4s ease-in 0s infinite normal;    -> THis is shorthand line for above lines */
+
       
 }
 
